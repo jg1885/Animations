@@ -12,12 +12,16 @@
 
 </head>
 
-<body>
+<body onload="draw();">
+
+
+<!--START OPEN & CLOSE TOGGLE BUTTON WITH HIDDEN TEXT! ********************************************************************************************************************************************************-->
+
 
 <h1>🐱‍👤Animations🍧</h1>
 <hr />
 
-<h2 class ="titles">Button That Opens Text Block & Closes:</h2>
+<h2 class ="titles">Open & Close Button With Hidden Text:</h2>
   <button type="button" name="button" class="button">View More +</button>
 <p class ="text">
     This is a button that, when clicked, reveals a hidden text section! The button also triggers a box-shadow css3 animation via keyframes, and
@@ -25,6 +29,31 @@
   </p>
 
 <hr />
+
+<!--END OPEN & CLOSE TOGGLE BUTTON WITH HIDDEN TEXT! ********************************************************************************************************************************************************-->
+
+
+
+
+<!--START HTML5 Canvas Animation ********************************************************************************************************************************************************-->
+
+<h2 class="titles">Random Red Squares</h2>
+<div class="wrap">
+<canvas width="250" height="250" id="red-squares"></canvas>
+</div>
+<button type="button" name="red-square-refresh" class="red-square-button">Refresh Page!</button>
+
+<p class ="canvas-text">
+  At first glance, there seems nothing particularly special about these red squares. However, this is a 2d rendering that gets fired when the page loads. After each page refresh or page load, a new order will be presented. This is done using HTML5 Canvas and Vanilla Javascript.
+</p>
+<hr />
+
+<!--END HTML5 Canvas Animation ********************************************************************************************************************************************************-->
+
+
+
+
+
 
 
 

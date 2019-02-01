@@ -15,6 +15,7 @@ p {
 h2 {
 
 font-family: georgia;
+width: 300px;
 }
 
 h1 {
@@ -32,7 +33,18 @@ h1 {
   outline: inherit;
 }
 
+.red-square-button {
+  color: #fff;
+  background-color: red;
+  border: none;
+  padding: 11px;
+  outline: inherit;
+  margin-top: 6px;
+}
 
+.red-square-button:hover{
+  cursor: pointer;
+}
 
 
 
@@ -45,6 +57,25 @@ h1 {
 .text {
  display: none;
  width: 300px;
+}
+
+.canvas-text {
+  width: 300px;
+  top: 325;
+  left: 125;
+}
+
+
+#canvas {
+border: 1px solid red;
+box-sizing: content-box;
+
+}
+
+#red-squares {
+  border: 3px solid red;
+  width: 250px;
+  height: 250px;
 }
 
 
